@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KOLDO | Servicios</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    </head>
+
+    <body>
+        <!-- Navegacion -->
+        <nav>
+            <a class="logo" href="index.html">KOLDO</a>
+
+            <div class="menu">
+                <input id="iMenu" type="checkbox">
+                <label class="iMenu" title="Buscar" for="iMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="items">
+                    <li id="activo"><a>Servicios</a></li>
+                    <li><a href="index.html#equipo">Equipo</a></li>
+                    <li><a href="index.html#tecnologia">Tecnologia</a></li>
+                    <li><a href="index.html#clientes">Clientes</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="busqueda">
+                <input id="iBuscar" type="checkbox">
+                <label class="iBuscar" title="Buscar" for="iBuscar">
+                    <span></span>
+                    <span></span>
+                    <ion-icon class="icon" name="search"></ion-icon>
+                </label>
+                <input class="buscar" type="text" placeholder="Buscar. . .">
+            </div>
+        </nav>
+
+        <!-- Servicios -->
+        <section id="servicios">
+            <h1 class="sec-titulo">Servicios</h1>
+
+            <aside class="sec-intro">Construimos, mantenemos y damos soporte, todo lo necesario está a tu alcance.</aside>
+
+            <div class="sec-contenedor">
+                <div class="servicio">
+                    <h2>Consultoria</h2>
+                    <p>
+                        No sabe qué tipo de servicio necesita? No se preocupe, podemos ayudarlo y encontrar una solución que se ajuste a su negocio y su presupuesto.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="servicio">
+                    <h2>Front End</h2>
+                    <p>
+                        Front End con un enfoque en HTML, CSS y JavaScript. El resultado de nuestro trabajo es un producto receptivo, accesible y eficiente. Tiene el diseño listo y desea que lo codifiquemos? Desea que hagamos tanto el diseño como el código? Nos encantaría hacerlo para usted.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="servicio">
+                    <h2>Back End</h2>
+                    <p>
+                        Un enfoque a la lógica de la aplicación para lograr el correcto funcionamiento de cada componente. Nuestro trabajo se basa en el acceso al servidor, el fondo de las peticiones del usuario.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="servicio">
+                    <h2>Apps Mobiles</h2>
+                    <p>
+                        Para facilitar el acceso a más clientes e incrementar los objetivos de su negocio, es necesaria una aplicación móvil. Trabajamos en el diseño de la aplicación desde cero hasta el prototipo final completamente probado.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="servicio">
+                    <h2>Soporte</h2>
+                    <p>
+                        Para la seguridad del cliente, nos encargamos de monitorear y brindar soporte las 24 horas los 7 dias de la semana. Estamos para ayudarlo en cualquier dificultad que surga.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+                <div class="servicio">
+                    <h2>Diseño Web Responsivo</h2>
+                    <p>
+                        A través de nuestro trabajo, nos enfocamos en diseñar una experiencia que funcione en diferentes tamaños de pantalla para adaptarse a las circunstancias y contextos en el que el usuario se encuentre.
+                    </p>
+
+                    <button title="Leer mas">
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="separador"></div>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h1 class="sec-titulo">CONTACTO</h1>
+
+            <aside class="sec-intro">Contáctenos! Lo ayudamos a potenciar su negocio.</aside>
+
+            <div class="sec-contenedor">
+                <form class="contacto">
+                    <div class="area">
+                        <input type="text" placeholder="Nombre">
+
+                        <input type="email" placeholder="E-mail">
+
+                        <input type="text" placeholder="Asunto">
+                    </div>
+
+                    <div class="area">
+                        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    </div>
+                </form>
+
+                <button class="btn-contacto">Enviar</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="redes">
+                <a class="linkedin" href="https://www.linkedin.com/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a class="twitter" href="https://twitter.com/" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a class="instagram" href="https://www.instagram.com/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+
+            <div class="panel">
+                <div class="columna">
+                    <h3 class="panel-titulo">Mapa del sitio</h3>
+                    <ul>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="index.html#equipo">Equipo</a></li>
+                        <li><a href="index.html#tecnologia">Tecnologia</a></li>
+                        <li><a href="index.html#clientes">Clientes</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="columna">
+                    <h3 class="panel-titulo">De interés</h3>
+                    <ul>
+                        <li><a href="#contacto">Trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="columna">
+                    <h3 class="panel-titulo">Contacto</h3>
+                    <address>
+                        KOLDO <br>
+                        +598 26005211 <br>
+                        <a href="index.html#contacto">hola@koldo.com</a> <br>
+                        <a href="https://www.google.com.uy/maps/place/Rambla+Rep%C3%BAblica+de+M%C3%A9xico+6535,+11500+Montevideo,+Departamento+de+Montevideo/@-34.890274,-56.0556472,17z/data=!3m1!4b1!4m5!3m4!1s0x959f866e72f6a3a3:0xcc6080e84d0928a8!8m2!3d-34.8902784!4d-56.0534585?hl=es" target="_blank">
+                            Rambla República de México 6535
+                        </a> <br>
+                        Montevideo, Uruguay
+                    </address>
+                </div>
+            </div>
+
+            <div class="creditos">
+                <aside>&COPY; 2020 KOLDO</aside>
+                <span>|</span>
+                <aside>Todos los derechos reservados</aside>
+                <span>|</span>
+                <aside>Iconos: <a href="https://ionicons.com/" target="_blank">Ionicons</a></aside>
+            </div>
+        </footer>
+    </body>
+
+</html>
